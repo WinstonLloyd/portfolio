@@ -38,7 +38,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-200 dark:border-slate-700">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-xl font-bold text-slate-900 dark:text-white">Portfolio</div>
+            <div className="text-xl font-bold text-slate-900 dark:text-white transform-gpu transition-all duration-300 hover:scale-110 hover:rotate-3 hover:shadow-2xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent hover:from-purple-600 hover:to-blue-600">WinstonLloyd</div>
             <div className="hidden md:flex space-x-8">
               {['Home', 'Projects', 'Skills', 'Contact'].map((item) => (
                 <button
