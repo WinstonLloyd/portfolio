@@ -17,9 +17,9 @@ export default function Home() {
       image: "/projects/image.png"
     },
     {
-      title: "AI Task Manager",
-      description: "Intelligent task management app with AI-powered prioritization and natural language processing.",
-      tech: ["Vue.js", "JavaScript", "Tailwind CSS"],
+      title: "Archival Document Mapping Management System.",
+      description: "Simplify your document management with our Archival Document Mapping Management System. Organize, map, and access your archival records effortlessly.",
+      tech: ["PHP", "MYSQL"],
       github: "https://github.com/WinstonLloyd/admms",
       demo: "https://demo.com",
       image: "/projects/ai-task-manager.png"
