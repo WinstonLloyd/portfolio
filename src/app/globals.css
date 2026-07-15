@@ -42,3 +42,21 @@ button:hover, a:hover, input:hover, textarea:hover, select:hover, [role="button"
 *::selection, [draggable="true"], .dragging {
   cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="16" fill="none" stroke="%23EF4444" stroke-width="3" opacity="0.9"/><circle cx="24" cy="24" r="10" fill="%23EF4444" opacity="0.7"/><circle cx="24" cy="24" r="4" fill="white"/><circle cx="18" cy="18" r="2" fill="white" opacity="0.8"/><circle cx="30" cy="18" r="2" fill="white" opacity="0.8"/><circle cx="18" cy="30" r="2" fill="white" opacity="0.8"/><circle cx="30" cy="30" r="2" fill="white" opacity="0.8"/></svg>') 24 24, grabbing !important;
 }
+
+/* Gradient animation */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
